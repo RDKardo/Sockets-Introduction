@@ -21,8 +21,6 @@ router.post('/mensajes',(req:Request,res:Response) =>{
     });
 });
 
-
-
 router.post('/mensajes/:id',(req:Request,res:Response) =>{
     const cuerpo =  req.body.cuerpo;
     const de = req.body.de;
